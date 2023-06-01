@@ -1,0 +1,143 @@
+body {
+    background-color: #f089b1;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: 300px;
+    height: 560px;
+    background-color: white;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    border-radius: 10px;
+}
+
+.container p:first-child {
+    position: relative;
+    top: 25px;
+    font-size: 24px;
+    left: 30px;
+}
+
+img {
+    max-width: 19%;
+    border-radius: 50%;
+}
+
+img:first-child {
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+.first-birth p:nth-child(2) {
+    position: relative;
+    top: -45px;
+    left: 100px;
+}
+
+.first-birth p:nth-child(3) {
+    position: relative;
+    top: -52px;
+    left: 100px;
+    color: gray;
+}
+
+.second-birth img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: -50px;
+}
+
+.second-birth p:nth-child(2) {
+    position: relative;
+    top: -120px;
+    left: 100px;
+}
+
+.second-birth p:nth-child(3) {
+    position: relative;
+    top: -124px;
+    left: 100px;
+    color: gray;
+}
+
+.third-birth img {
+    position: relative;
+    top: -120px;
+    width: 60px;
+    height: 60px;
+}
+
+.third-birth p:nth-child(2) {
+    position: relative;
+    top: -190px;
+    left: 97px;
+}
+
+.third-birth p:nth-child(3) {
+    position: relative;
+    top: -197px;
+    left: 97px;
+    color: gray;
+}
+
+.forth-birth img {
+    position: relative;
+    top: -188px;
+    width: 60px;
+    height: 60px;
+}
+
+.forth-birth p:nth-child(2) {
+    position: relative;
+    top: -259px;
+    left: 97px;
+}
+
+.forth-birth p:nth-child(3) {
+    position: relative;
+    top: -268px;
+    left: 97px;
+    color: grey;
+}
+
+.fifth-birth img {
+    position: relative;
+    top: -258px;
+}
+
+.fifth-birth p:nth-child(2) {
+    position: relative;
+    top: -326px;
+    left: 100px;
+}
+
+.fifth-birth p:nth-child(3) {
+    position: relative;
+    top: -335px;
+    left: 100px;
+    color: grey;
+}
+
+a {
+    position: absolute;
+    bottom: 36px;
+    left: 27px;
+    width: 250px;
+    height: 56px;
+    background-image: linear-gradient(to left, #fe69a3, #e66dd0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px 8px #f8acc9;
+    border-radius: 7px;
+}
